@@ -10,6 +10,7 @@ export const StyledEmptyState = styled.div`
   font-size: 18px;
   margin: auto;
   width: 500px;
+  max-width: 100%;
 
   p {
     margin: 0;

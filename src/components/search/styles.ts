@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const StyledSearch = styled.div`
   max-width: 100%;
   width: 500px;
-  padding: 16px 0;
+  padding: 16px;
   margin: auto;
   position: relative;
 
   input {
     width: 100%;
     padding: 15px 20px;
+    padding-right: 50px;
     color: #060e1e;
     font-size: 16px;
     border-radius: 25px;
@@ -19,9 +20,10 @@ export const StyledSearch = styled.div`
 
   .close-btn {
     position: absolute;
-    right: 10px;
+    right: 26px;
     top: 50%;
     transform: translateY(-50%);
+    background-color: transparent;
     border: none;
     cursor: pointer;
 
