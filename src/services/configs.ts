@@ -1,5 +1,3 @@
-import { ImageMappedDataType } from "types/images.types";
-
 export const PexelsImagesSearchUrl = "https://api.pexels.com/v1/search";
 export const UnsplashImagesSearchUrl = "https://api.unsplash.com/search/photos/";
 
